@@ -10,6 +10,9 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
+            Organization test = new Organization("J");
+            OrgInit.InitializeOrganization(test);
+            OrgDemo.TestOrganization(test);
         }
     }
 }

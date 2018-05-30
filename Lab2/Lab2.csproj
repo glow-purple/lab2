@@ -42,8 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="Auditor.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="DepartmentType.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="FixedTermEmployee.cs" />
+    <Compile Include="FullName.cs" />
+    <Compile Include="IOrgUnit.cs" />
+    <Compile Include="IUnit.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="OrgInit.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salary.cs" />
+    <Compile Include="OrgDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
